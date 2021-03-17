@@ -1,18 +1,17 @@
 @font-face {
-  font-family: "icomoon";
-  src: url("fonts/icomoon.eot?6py85u");
-  src: url("fonts/icomoon.eot?6py85u#iefix") format("embedded-opentype"),
-    url("fonts/icomoon.ttf?6py85u") format("truetype"),
-    url("fonts/icomoon.woff?6py85u") format("woff"),
-    url("fonts/icomoon.svg?6py85u#icomoon") format("svg");
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?6py85u');
+  src:  url('fonts/icomoon.eot?6py85u#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6py85u') format('truetype'),
+    url('fonts/icomoon.woff?6py85u') format('woff'),
+    url('fonts/icomoon.svg?6py85u#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: 'icomoon' !important;
   /* speak: none; */
   font-style: normal;
   font-weight: normal;
@@ -20,7 +19,7 @@
   text-transform: none;
   line-height: 1;
   /* MOHAN EDITED */
-  color: #2c98f0;
+  color: #2c98f0; 
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -1791,3 +1790,4 @@
 .icon-IcoMoon:before {
   content: "\eb1a";
 }
+
