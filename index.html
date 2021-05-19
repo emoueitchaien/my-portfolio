@@ -70,6 +70,15 @@
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<script>
+					
+					if(Math.random() <= 0.5){
+						document.getElementsByClassName("author-img")[0].style.backgroundImage = "url('images/about.jpg')";
+					}
+					else{
+						document.getElementsByClassName("author-img")[0].style.backgroundImage = "url('images/about2.jpg')";
+					}
+				</script>
 				<h1 id="colorlib-logo"><a href="index.html">Mohan Pradhan</a></h1>
 				<span class="position"><a href="https://en.wikipedia.org/wiki/Web_developer">Web Developer</a> in Nepal</span>
 			</div>
