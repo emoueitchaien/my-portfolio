@@ -72,11 +72,14 @@
 				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
 				<script>
 					
-					if(Math.random() <= 0.5){
+					if(Math.random() <= 0.33){
 						document.getElementsByClassName("author-img")[0].style.backgroundImage = "url('images/about.jpg')";
 					}
-					else{
+					else if(Math.random() >= 0.33 && Math.random() <= 0.66){
 						document.getElementsByClassName("author-img")[0].style.backgroundImage = "url('images/about2.jpg')";
+					}
+					else {
+						document.getElementsByClassName("author-img")[0].style.backgroundImage = "url('images/about3.jpg')";
 					}
 				</script>
 				<h1 id="colorlib-logo"><a href="index.html">Mohan Pradhan</a></h1>
