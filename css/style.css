@@ -106,13 +106,16 @@ figure figcaption {
 }
 
 #colorlib-aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding-top: 3em;
   padding-bottom: 40px;
   float: left;
   width: 300px;
   position: fixed;
   overflow-y: scroll;
-
   z-index: 1001;
   background: #1e2022;
   -webkit-transition: 0.5s;
