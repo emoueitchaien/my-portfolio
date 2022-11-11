@@ -299,7 +299,7 @@ figure figcaption {
 }
 
 #colorlib-hero {
-  min-height: 720px;
+  min-height: 720px; /* 500px default*/
   background: #fff url(../images/loader.png) no-repeat center center;
   width: 100%;
   float: left;
