@@ -299,8 +299,8 @@ figure figcaption {
 }
 
 #colorlib-hero {
-  min-height: 500px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  min-height: 720px;
+  background: #fff url(../images/loader.png) no-repeat center center;
   width: 100%;
   float: left;
   margin-bottom: 10em;
