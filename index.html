@@ -48,12 +48,13 @@
 	<div id="page">	
 	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_5.webp);" data-stellar-background-ratio="0.5">
 		<script>
-			 if (Math.random() <= 0.333 ) {
+			 const randomBackground = Math.random();
+			 if (randomBackground <= 0.333 ) {
 			  document.getElementsByClassName(
 				"fh5co-cover"
 			  )[0].style.backgroundImage = "url('images/cover_bg_4.gif')";
 			}
-			else if (Math.random() >= 0.334 && Math.random() < 0.666) {
+			else if (randomBackground >= 0.334 && randomBackground < 0.666) {
 			  document.getElementsByClassName(
 				"fh5co-cover"
 			  )[0].style.backgroundImage = "url('images/cover_bg_5.webp')";
